@@ -1,0 +1,11 @@
+.loader{
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will take the full viewport height */
+    width: 100vw; /* This will take the full viewport width */
+}
+.loader img{
+    width: 120px;
+}
