@@ -12,7 +12,6 @@ const BookList = () => {
   const booksWithCovers = books.map((singleBook) => {
     return {
       ...singleBook,
-      // removing /works/ to get only id
       id: (singleBook.id).replace("/works/", ""),
       cover_img: singleBook.cover_id ? `https://covers.openlibrary.org/b/id/${singleBook.cover_id}-L.jpg` : coverImg
     }
